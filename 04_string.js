@@ -27,3 +27,29 @@ var firstName = "Pruthviraj";
 var lastName= " Kamble";
 var resultConcat = firstName.concat(lastName);
 console.log("Concat result is:", resultConcat);
+
+console.log("========== replace() ==================");
+var greet = "Good Morning";
+const afterReplace = greet.replace("Morning", "Afternoon");
+console.log(`After replace string is: ${afterReplace}`);
+
+console.log(`========== toUpperCase() ==================`);
+var greet = "Good Morning";
+var greetInUpperCase = greet.toUpperCase();
+console.log(`${greet} in upper case is : ${greetInUpperCase}`);
+
+console.log(`========== trim() ==================`);
+var greet = "  Good Morning  ";
+var result = greet.trim();
+console.log(`${greet}:after using trim:${result}`);
+
+console.log(`========== includes() ==================`);
+var greet = "Good Morning";
+var result = greet.includes("Good");
+console.log(`its include or not:  ${result}`);
+
+console.log(`========== slice(start,end) ==================`);
+var fullName ="Pruthviraj kamble";
+var result = fullName.slice(0,15);
+console.log(`${fullName} find out chars between given index:${result}`);
+

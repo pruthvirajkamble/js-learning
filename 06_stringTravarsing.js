@@ -26,3 +26,4 @@ for (let index = 0; index<word.length; index++) {
     }  
 }
 console.log(`Char a count is: ${count}`);
+

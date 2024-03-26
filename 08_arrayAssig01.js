@@ -40,6 +40,9 @@ for (let index = 4; index <=fruits_seasonal.length-1; index++) {
     
 }
 
+//console.log(`last Three element: ${fruits_seasonal.splice(fruits_seasonal-3)}`);
+//console.log(fruits_seasonal);
+
 
 
 

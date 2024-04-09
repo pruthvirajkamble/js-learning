@@ -1,5 +1,5 @@
     //const array = [3,9,7,6,19,29,53];
-    function isPrime(num) {
+function isPrime(num) {
       if (num <= 1) {
           return false;
       }
@@ -9,7 +9,7 @@
           }
       }
       return true;
-  }
+}
   
   function countPrimesInArray(arr) {
       let count = 0;
